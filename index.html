@@ -28,6 +28,56 @@
       Расмотрим 5 причин, по которым седона круче, чем гранд каньон!
     </p>
     <section>
+      <h2>Настоящий городок</h2>
+      <p>-№1-</p>
+      <p>Седона-не аттракцион для туристов,там течет своя жизнь</p>
+      <img src="img/" alt="Фотография городка">
+    </section>
+    <section>
+      <ul>
+        <li>
+          <h2>Жилье</h2>
+          <p>Рекомендуем пожить в настоящем мотеле,все как в кино</p>
+          <img src="img/" alt="Иконка дома">
+        </li>
+        <li>
+          <h2>Еда</h2>
+          <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
+          <img src="img/" alt="Иконка бургера">
+        </li>
+        <li>
+          <h2>Сувениры</h2>
+          <p>Не только китайского,но и местного производства!</p>
+          <img src="img/" alt="Иконка подарка">
+        </li>
+      </ul>
+    </section>
+    <section>
+      <h2>Там есть мост дьявола</h2>
+      <p>-№2-</p>
+      <p>Да,по нему можно пройти! если конечно вы осмелитесь</p>
+      <img src="img/" alt="Фотография моста дьявола">
+    </section>
+    <section>
+      <ul>
+        <li>
+          <h2>Небольшая площадь</h2>
+          <p>-№3-</p>
+          <p>Все достопримечательности находятся очень близко</p>
+        </li>
+        <li>
+          <h2>Красивая дорога</h2>
+          <p>-№4-</p>
+          <p>Ехать в седону из лас-вегаса совсем не скучно!</p>
+        </li>
+        <li>
+          <h2>Мало туристов</h2>
+          <p>-№5-</p>
+          <p>Большинство едет в гранд каньон и толпится там</p>
+        </li>
+      </ul>
+    </section>
+    <section>
       <h2>Заинтересовались?</h2>
       <h3>Укажите предпологаемые даты поездки и мы покажем вам лучшие предложения гостиниц в седоне</h3>
       <button type="button">Поиск гостиницы в седоне</button>
@@ -63,12 +113,14 @@
         </a>
     </section>
   </footer>
-  <section class="visually-hidden">
+  <section class="modal ">
     <form action="https://echo.htmlacademy.ru" method="post">
-      <p>Дата заезда:<input type="date" name="calendar">
-      <p>Дата выезда:<input type="date" name="calendar">
-      <p>Взрослые:</p>
-      <p>Дети:</p>
+      <label>Дата заезда:<input type="date" name="calendar-entry"></label>
+      <label>Дата выезда:<input type="date" name="calendar-departure"></label>
+      <div>
+        <label>Взрослые:<input type="number" name="number-adults"></label>
+        <label>Дети:<input type="number" name="number-children"></label>
+      </div>
       <button type="submit">Найти</button>
     </form>
   </section>
