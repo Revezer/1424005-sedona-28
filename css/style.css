@@ -13,6 +13,16 @@ body {
     background-repeat: no-repeat;
 }
 
+header,
+main{    
+    align-items: center;
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+}
+
 a {
     text-decoration: none;
 }
@@ -31,10 +41,6 @@ img {
     line-height: 26px;
 }
 
-.site-navigation {
-    list-style: none;
-}
-
 .site-navigation a,
 .user-navigation a {
     color: black;
@@ -47,16 +53,55 @@ img {
     background-color: #888888;
 }
 
+.heading{
+    background-color: #FFFFFF;
+}
+
 .heading h1{
     font-size: 21px;
     line-height: 26px; 
-    align-items: center;
-    text-align: center;
     white-space: pre;
 }
 .heading p {
     font-size: 14px;
     line-height: 26px;
-    align-items: center;
-    text-align: center;
 }
+
+.section-cause-1,
+.section-cause-2{
+    background-color: #81B3D2;
+}
+
+.section-cause-1 h2,
+.section-cause-2 h2{
+    font-size: 21;
+    line-height: 21;
+}
+.modal{
+    display: none;
+}
+
+.section-privilege{
+    background-color: #FFFFFF;
+}
+
+.section-cause-3{
+    background-color: #EEEEEE;
+}
+
+.section-interested{
+    background-color: #FFFFFF;
+}
+.section-interested button {
+    font: inherit;
+    text-align: center;
+    background-color: #766357;
+    border: none;
+  }
+
+  .section-interested button:hover,
+  .section-interested button:focus,
+  .section-interested button:active {
+    background-color: #81B3D2;
+  }
+
