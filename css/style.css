@@ -5,12 +5,15 @@ body {
     font-family: "PT Sans", Arial, sans-serif;
     font-size: 14px;
     line-height: 21px;
-    font-weight: 700;
     color: #000000;
     text-transform: uppercase;
     background-color: #888888;
     background-position: top center;
     background-repeat: no-repeat;
+}
+
+header{
+    font-weight: 700;
 }
 
 header,
@@ -61,6 +64,8 @@ img {
     font-size: 21px;
     line-height: 26px; 
     white-space: pre;
+    font-weight: 700;
+    
 }
 .heading p {
     font-size: 14px;
@@ -131,4 +136,14 @@ img {
   .button-reservation:hover,
   .button-reservation:focus{
       background-color: black;
+  }
+
+  .section-hotels h2{
+    font-size: 21px;
+    line-height: 26px;
+  }
+
+  .section-hotels h3{
+    font-size: 14px;
+    line-height: 21px;
   }
