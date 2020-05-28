@@ -105,3 +105,30 @@ img {
     background-color: #81B3D2;
   }
 
+  footer{
+      background-color: white;
+  }
+
+  .section-hotels{
+      background-color: white;
+  }
+
+  .button-more{
+    color:white;
+    background-color: #81B3D2;
+  }
+  
+  .button-more:hover,
+  .button-more:focus{
+    background-color:black;
+  }
+
+  .button-reservation{
+      color: white;
+      background-color: #766357;
+  }
+
+  .button-reservation:hover,
+  .button-reservation:focus{
+      background-color: black;
+  }
