@@ -109,9 +109,14 @@ img{
   }
 
   .section-interested button:hover,
-  .section-interested button:focus,
-  .section-interested button:active {
-    background-color: #81B3D2;
+  .section-interested button:focus {
+    background-color: #604E43;
+  }
+
+  .section-interested button:active{
+    background-color: #503E33;
+    mix-blend-mode: normal;
+    opacity: 0.3;  
   }
 
   .modal{
@@ -163,4 +168,19 @@ footer{
 
 .background-greetings{
     background-image: url(img/background-photo.png);
+}
+
+.twitter:hover,
+.twitter:focus{
+    background-image: url(img/tweeter-focus.svg);
+}
+
+.facebook:hover,
+.facebook:focus{
+
+}
+
+.youtube:hover,
+.youtube:focus{
+    
 }
