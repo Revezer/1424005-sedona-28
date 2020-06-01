@@ -1,5 +1,5 @@
 body {
-    min-width:1220;
+    min-width: 1220px;
     margin: 0;
     padding: 0;
     font-family: "PT Sans", Arial, sans-serif;
@@ -64,34 +64,37 @@ img{
 }
 
 .main h2{
-    font-size: 21;
-    line-height: 21;
+    font-size: 21px;
+    line-height: 21px;
     font-weight: 700;
 }
 
-.section-cause-1,
-.section-cause-2{
+.section-cause-present,
+.section-cause-bridge{
     background-color: #81B3D2;
     color: white;
 }
 
 
 .section-privilege,
-.section-cause-3,
 .section-interested{
     background-color: #FFFFFF;
 }
 
+.section-cause-rest{
+    background: #EEEEEE;
+}
+
 .section-interested h1{
-    font-size: 30;
-    line-height: 24;
-    font-weight: 700;
+    font-size: 30px;
+    line-height: 24px;
+    font-weight: 700px;
 }
 
 .section-interested h3{
-    font-size: 14;
-    line-height: 24;
-    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: normal;
 }
 
 .section-interested button {
@@ -156,4 +159,8 @@ footer{
 .button-reservation:hover,
 .button-reservation:focus{
     background-color: black;
+}
+
+.background-greetings{
+    background-image: url(img/background-photo.png);
 }
