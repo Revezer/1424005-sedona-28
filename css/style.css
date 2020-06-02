@@ -167,12 +167,19 @@ footer{
 }
 
 .background-greetings{
-    background-image: url(img/background-photo.png);
+    background-image: url(../img/background.svg);
+}
+
+.twitter{
+    background-image: url(..img/tweeter.svg);
+    alt:"facebook";
+    width:46;
+    height:48;
 }
 
 .twitter:hover,
 .twitter:focus{
-    background-image: url(img/tweeter-focus.svg);
+    background-image: url(..img/tweeter-focus.svg);
 }
 
 .facebook:hover,
