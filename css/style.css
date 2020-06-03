@@ -115,8 +115,6 @@ img{
 
   .section-interested button:active{
     background-color: #503E33;
-    mix-blend-mode: normal;
-    opacity: 0.3;  
   }
 
   .modal{
@@ -152,7 +150,11 @@ footer{
 
 .button-more:hover,
 .button-more:focus{
-  background-color:black;
+  background-color:#669EC0;
+}
+
+.button-more:active{
+    background-color: #5496BD;
 }
 
 .button-reservation{
@@ -163,7 +165,11 @@ footer{
 
 .button-reservation:hover,
 .button-reservation:focus{
-    background-color: black;
+    background-color: #604E43;
+}
+
+.button-reservation:active{
+    background-color: #503E33;
 }
 
 .background-greetings{
@@ -171,23 +177,65 @@ footer{
 }
 
 .twitter{
-    background-image: url(..img/tweeter.svg);
-    alt:"facebook";
-    width:46;
-    height:48;
+    background-image: url(../img/twitter.svg);
+    display: block;
+    width: 46px;
+    height: 48px;
 }
 
 .twitter:hover,
 .twitter:focus{
-    background-image: url(..img/tweeter-focus.svg);
+    background-image: url(../img/twitter-focus.svg);
+}
+
+.twitter:active{
+    background-image: url(../img/twitter-active.svg);
+}
+
+.facebook{
+    background-image: url(../img/facebook.svg);
+    display: block;
+    width: 46px;
+    height: 48px;
 }
 
 .facebook:hover,
 .facebook:focus{
+    background-image: url(../img/facebook-focus.svg);
+}
 
+.facebook:active{
+    background-image: url(../img/facebook-active.svg);
+}
+
+.youtube{
+    background-image: url(../img/youtube.svg);
+    display: block;
+    width: 46px;
+    height: 48px;
 }
 
 .youtube:hover,
 .youtube:focus{
-    
+    background-image: url(../img/youtube-focus.svg);
+}
+
+.youtube:active{
+    background-image: url(../img/youtube-active.svg);
+}
+
+.htmlacademy{
+    background-image: url(../img/logo-htmlacademy.svg);
+    display: block;
+    width: 197px;
+    height: 41px;
+}
+
+.htmlacademy:hover,
+.htmlacademy:focus{
+    background-image: url(../img/logo-htmlacademy-focus.svg);
+}
+
+.htmlacademy:active{
+    background-image: url(../img/logo-htmlacademy-active.svg);
 }
