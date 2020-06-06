@@ -26,6 +26,7 @@ header{
     font-weight: 700;
     font-size: 14px;
     line-height: 26px;
+    height: 56px;
 }
 
 header,
@@ -51,6 +52,12 @@ img{
 
 .main-header {
     background: #FFFFFF;
+}
+
+.site-navigation{
+    padding-left: 0px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
 }
 
 .site-navigation a{
@@ -79,10 +86,25 @@ img{
     line-height: 26px;
 }
 
+.site-navigation-item{
+    text-align: left;
+}
+
+.site-navigation-item-li{
+    text-align: right;
+}
+
 .main h2{
     font-size: 21px;
     line-height: 21px;
     font-weight: 700;
+}
+
+.qwert{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .section-cause-present,
@@ -351,4 +373,9 @@ footer section{
     width: 64px;
     height: 77px;
     background-image: url(../img/present-icon.svg);
+}
+
+.social ul{
+    display: flex;
+    padding-left: 0px;
 }
