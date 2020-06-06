@@ -1,5 +1,10 @@
+html{
+    display:flex;
+    justify-content: center;
+}
+
 body {
-    width: 1200px;
+    width: 1280px;
     margin: 0;
     padding: 0;
     font-family: "PT Sans", Arial, sans-serif;
@@ -12,6 +17,9 @@ body {
     background-repeat: no-repeat;
     align-items: center;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 header{
@@ -20,12 +28,11 @@ header{
     line-height: 26px;
 }
 
-.page-body {
-    min-height: 100%;
-    display: grid;
-    grid-template-rows: min-content 1fr min-content;
-    align-content: start;
-  }
+header,
+main,
+footer{
+    width: 1200px;
+}
 
 ul{
     list-style: none;
@@ -43,7 +50,7 @@ img{
 
 
 .main-header {
-        background: #FFFFFF;
+    background: #FFFFFF;
 }
 
 .site-navigation a{
@@ -194,7 +201,13 @@ footer section{
 }
 
 .background-greetings{
-    background-image: url(../img/background.svg);
+    background-image: url(../img/background-mountain.svg);
+    width: 1200px;
+    height: 510px;
+}
+
+.background-greetings-img{
+    padding-top: 62px;
 }
 
 .twitter{
@@ -319,4 +332,23 @@ footer section{
     margin: 0;
     padding: 0;
     white-space: pre-line;
+}
+
+.house{
+    width: 75px;
+    height: 72px;
+    background-image: url(../img/house-icon.svg);
+
+}
+
+.food{
+    width: 75px;
+    height: 70px;
+    background-image: url(../img/food-icon.svg);
+}
+
+.present{
+    width: 64px;
+    height: 77px;
+    background-image: url(../img/present-icon.svg);
 }
