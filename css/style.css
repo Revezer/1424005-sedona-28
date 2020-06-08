@@ -71,19 +71,28 @@ img{
 
 .heading{
     background-color: #FFFFFF;
+    height: 216px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .heading h1{
     font-size: 21px;
     line-height: 26px; 
-    white-space: pre;
+    white-space: pre-line;
     font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 0px;
     
 }
 
 .heading p {
     font-size: 14px;
     line-height: 26px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .site-navigation-item{
@@ -113,26 +122,47 @@ img{
     color: white;
 }
 
-
 .section-privilege,
 .section-interested{
     background-color: #FFFFFF;
+}
+
+.section-privilege ul{
+    height: 330px;
+}
+
+.section-privilege ul li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .section-cause-rest{
     background: #EEEEEE;
 }
 
+.section-interested{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 300px;
+}
+
 .section-interested h1{
     font-size: 30px;
     line-height: 24px;
     font-weight: 700px;
+    margin: 0px;
+    padding-top: 57px;
 }
 
 .section-interested h3{
     font-size: 14px;
     line-height: 24px;
     font-weight: normal;
+    white-space: pre-line;
 }
 
 .section-interested button {
@@ -144,6 +174,8 @@ img{
     font-weight: bold;
     font-size: 21px;
     line-height: 26px;
+    width: 568px;
+    height: 86px;
   }
 
 .section-interested button:hover,
@@ -180,6 +212,17 @@ footer section{
 
 .number{
     color:black;
+}
+
+.ul-hotels{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+}
+
+.ul-hotels section{
+    border-color: black;
 }
 
 .ul-hotels h2{
@@ -237,6 +280,7 @@ footer section{
     display: block;
     width: 46px;
     height: 48px;
+    margin-right: 6px;
 }
 
 .twitter:hover,
@@ -269,6 +313,7 @@ footer section{
     display: block;
     width: 46px;
     height: 48px;
+    margin-left: 6px;
 }
 
 .youtube:hover,
