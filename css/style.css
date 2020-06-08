@@ -219,6 +219,7 @@ footer section{
     flex-direction: column;
     margin: 0px;
     padding: 0px;
+    text-align: start;
 }
 
 .ul-hotels h2{
@@ -236,6 +237,10 @@ footer section{
   color:white;
   background-color: #81B3D2;
   font-weight: bold;
+  display: block;
+  width: 110px;
+  height: 27px;
+  text-align: center;
 }
 
 .button-more:hover,
@@ -251,6 +256,10 @@ footer section{
     color: white;
     background-color: #766357;
     font-weight: bold;
+    display: block;
+    width: 142px;
+    height: 27px;
+    text-align: center;
 }
 
 .button-reservation:hover,
@@ -420,4 +429,14 @@ footer section{
 .social ul{
     display: flex;
     padding-left: 0px;
+}
+
+.div-amara{
+    display: flex;
+}
+
+.img-amara{
+    padding-left:73px;
+    padding-top:30px;
+    padding-right:29px;
 }
