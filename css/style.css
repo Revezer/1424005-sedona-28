@@ -45,7 +45,7 @@ a{
 
 img{
     max-width: 100%;
-    height: auto;
+    max-height: 100%;
 }
 
 
@@ -221,10 +221,6 @@ footer section{
     padding: 0px;
 }
 
-.ul-hotels section{
-    border-color: black;
-}
-
 .ul-hotels h2{
     font-weight: bold;
     font-size: 21px;
@@ -233,6 +229,7 @@ footer section{
 
 .section-hotels{
     background-color: white;
+    display: flex;
 }
 
 .button-more{
