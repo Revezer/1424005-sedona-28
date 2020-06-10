@@ -572,9 +572,9 @@ footer section{
 }
   
 .range-controls .toggle-min {
-    left: 18px;
+    bottom: 12px;
  }
   
 .range-controls .toggle-max {
-    left: 160px;
+    bottom: 12px;
 }
