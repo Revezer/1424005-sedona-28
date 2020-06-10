@@ -503,3 +503,78 @@ footer section{
     padding-top:30px;
     padding-right:29px;
 }
+
+.form-filter{
+    display: flex;
+    background-image: url(../img/background-filter.jpg);
+    height: 217px;
+}
+
+.form-filter ul{
+    padding: 0px;
+}
+
+.fieldset-infrastructure{
+    width: 135px;
+    height: 160px;
+    border: none;
+    text-align: start;
+    padding: 0;
+    margin-left: 72px;
+}
+
+.fieldset-type-housing{
+    width: 137px;
+    height: 160px;
+    border: none;
+    text-align: start;
+    padding: 0;
+    margin-left: 94px;
+}
+
+.filter-item {
+    margin: 0;
+    padding: 0;
+    border: none;
+    margin-left: 325px;
+}
+
+.range-filter {
+    width: 316px;
+}
+
+.range-controls {
+    position: relative;
+    height: 22px;
+}
+
+.range-controls .scale {
+    height: 2px;
+    background: #d7dcde;
+}
+
+.range-controls .bar {
+    height: 2px;
+    background: white;
+}
+
+.range-controls .toggle {
+    position: absolute;
+    left: 0;
+    width: 4px;
+    height: 4px;
+    padding: 0;
+    border: 8px solid #ffffff;
+    background-color: #ababab;
+    border-radius: 50%;
+    box-shadow: 0 2px 1px 0 #cfcfcf;
+    cursor: pointer;
+}
+  
+.range-controls .toggle-min {
+    left: 18px;
+ }
+  
+.range-controls .toggle-max {
+    left: 160px;
+}
