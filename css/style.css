@@ -1,9 +1,9 @@
-html{
+.page{
     display:flex;
     justify-content: center;
 }
 
-body {
+.page-body {
     width: 1280px;
     margin: 0;
     padding: 0;
@@ -12,7 +12,6 @@ body {
     line-height: 21px;
     color: #000000;
     text-transform: uppercase;
-    background-color: #888888;
     background-position: top center;
     background-repeat: no-repeat;
     align-items: center;
@@ -22,24 +21,25 @@ body {
     justify-content: center;
 }
 
-header{
+.main-header{
     font-weight: 700;
     font-size: 14px;
     line-height: 26px;
     height: 56px;
 }
 
-header,
-main,
-footer{
+.main-header,
+.main,
+.basement{
     width: 1200px;
 }
 
 ul{
     list-style: none;
+    padding: 0px;
 }
 
-a{
+.link{
     text-decoration: none;
 }
 
@@ -48,6 +48,21 @@ img{
     max-height: 100%;
 }
 
+.h-one{
+    margin: 0px;
+}
+
+.paragraph{
+    margin: 0px;
+}
+
+.h-two{
+    margin: 0px;
+}
+
+.h-three{
+    margin: 0px;
+}
 
 
 .main-header {
@@ -494,11 +509,11 @@ footer section{
     padding-left: 0px;
 }
 
-.div-amara{
+.div-hotel{
     display: flex;
 }
 
-.img-amara{
+.img-hotel{
     padding-left:73px;
     padding-top:30px;
     padding-right:29px;
@@ -560,7 +575,6 @@ footer section{
 
 .range-controls .toggle {
     position: absolute;
-    left: 0;
     width: 4px;
     height: 4px;
     padding: 0;
@@ -577,4 +591,17 @@ footer section{
   
 .range-controls .toggle-max {
     bottom: 12px;
+}
+
+.toggle-max{
+    left: 0%
+}
+
+.toggle-min{
+    left:75%;
+}
+
+.bar{
+    width: 75%;
+    margin-left: 0%
 }

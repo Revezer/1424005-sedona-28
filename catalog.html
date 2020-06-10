@@ -12,17 +12,17 @@
     <header class="main-header">
       <nav class="main-navigation">
         <ul class="site-navigation">
-          <li><a href="blank.html">Информация</a></li>
-          <li class="site-navigation-item"><a href="blank.html">Фото и Видео</a></li>
-          <li class="site-navigation-item-li"><a href="blank.html">Карта штата</a></li>
+          <li><a class="link" href="blank.html">Информация</a></li>
+          <li class="site-navigation-item"><a class="link" href="blank.html">Фото и Видео</a></li>
+          <li class="site-navigation-item-li"><a class="link" href="blank.html">Карта штата</a></li>
           <li><a>Гостиницы</a></li>
         </ul>
-        <a class="qwert">
+        <a href="index.html" class="qwert link">
           <img src="img/logo-sedona.svg" width="138" height="70" alt="Логотип Седона">
         </a>
       </nav>
     </header>
-    <main>
+    <main class="main">
       <section>
         <form action="https://echo.htmlacademy.ru" method="get"  class="form-filter">
           <fieldset class="fieldset-infrastructure">
@@ -72,17 +72,13 @@
               </div>
               <div class="range-controls">
                 <div class="scale">
-                  <div class="bar" style="
-                    width: 75%;
-                    margin-left: 0%
-                  "></div>
+                  <div class="bar">
+                  </div>
                 </div>
-                <div class="toggle toggle-min" tabindex="0" style="
-                  left: 0%
-                "></div>
-                <div class="toggle toggle-max" tabindex="0" style="
-                  left: 75%
-                "></div>
+                <div class="toggle toggle-min" tabindex="0">
+                </div>
+                <div class="toggle toggle-max" tabindex="0">
+                </div>
               </div>
             </div>
         </fieldset>
@@ -91,17 +87,17 @@
         <ul class="ul-hotels">
             <li>
               <section class="section-hotels">
-                <img src="img/gostinnica.jpg" class="img-amara" width="135" height="90" alt="ГОСТИНИЦА">
+                <img src="img/gostinnica.jpg" class="img-hotel" width="135" height="90" alt="ГОСТИНИЦА">
                 <div>
-                  <h2>Amara resort & spa</h2>
-                  <div class="div-amara">
+                  <h2 class="h-two">Amara resort & spa</h2>
+                  <div class="div-hotel">
                     <div>
-                      <p>Гостиница</p>
-                      <a class="button-more" href="blank.html">Подробнее</a>
+                      <p class="paragraph">Гостиница</p>
+                      <a class="button-more link" href="blank.html">Подробнее</a>
                     </div>
                     <div>
-                      <p>От 4000 р.</p>
-                      <a class="button-reservation" href="blank.html">Забронировать</a>
+                      <p class="paragraph">От 4000 р.</p>
+                      <a class="button-reservation link" href="blank.html">Забронировать</a>
                     </div>
                   </div>
                 </div>
@@ -109,17 +105,17 @@
             </li>
             <li>
               <section class="section-hotels">
-                <img src="img/motel.jpg" class="img-amara" width="135" height="90" alt="МОТЕЛЬ">
+                <img src="img/motel.jpg" class="img-hotel" width="135" height="90" alt="МОТЕЛЬ">
                 <div>
-                  <h2>Desert quail inn</h2>
-                  <div class="div-amara">
+                  <h2 class="h-two">Desert quail inn</h2>
+                  <div class="div-hotel">
                     <div>
-                      <p>Мотель</p>
-                      <a class="button-more" href="blank.html">Подробнее</a>
+                      <p class="paragraph">Мотель</p>
+                      <a class="button-more link" href="blank.html">Подробнее</a>
                     </div>
                     <div>
-                      <p>От 3000 р.</p>
-                      <a class="button-reservation" href="blank.html">Забронировать</a>
+                      <p class="paragraph">От 3000 р.</p>
+                      <a class="button-reservation link" href="blank.html">Забронировать</a>
                     </div>
                   </div>
                 </div>
@@ -127,17 +123,17 @@
             </li> 
             <li>
               <section class="section-hotels">
-                <img src="img/apartament.jpg" class="img-amara" width="135" height="90" alt="АПАРТАМЕНТЫ">
+                <img src="img/apartament.jpg" class="img-hotel" width="135" height="90" alt="АПАРТАМЕНТЫ">
                 <div>
                   <h2>Villas at poco diablo</h2>
-                  <div class="div-amara">
+                  <div class="div-hotel">
                     <div>
-                      <p>Апартаменты</p>
-                      <a class="button-more" href="blank.html">Подробнее</a>
+                      <p class="paragraph">Апартаменты</p>
+                      <a class="button-more link" href="blank.html">Подробнее</a>
                     </div>
                     <div>
-                      <p>От 2000 р.</p>
-                      <a class="button-reservation" href="blank.html">Забронировать</a>
+                      <p class="paragraph">От 2000 р.</p>
+                      <a class="button-reservation link" href="blank.html">Забронировать</a>
                     </div>
                   </div>
                 </div>
@@ -145,29 +141,29 @@
             </li>
         </ul>
     </main>
-    <footer>
+    <footer class="basement">
       <section class="section-number">
-        <p>#VISITSEDONA</p>
-        <p>ТЕЛ:<a class="number" href="tel:+74956660166">+7(495)666-01-66</a></p>
+        <p class="paragraph">#VISITSEDONA</p>
+        <p class="paragraph">ТЕЛ:<a class="number" href="tel:+74956660166">+7(495)666-01-66</a></p>
       </section>
       <section class="social">
         <ul>
           <li>
-            <a href="#" class="twitter">
+            <a aria-label="ссылка на twitter" href="#" class="twitter link">
             </a>
           </li>
           <li>
-            <a href="#" class="facebook">
+            <a aria-label="ссылка на facebook" href="#" class="facebook link">
             </a>
           </li>
           <li>
-            <a href="#" class="youtube">
+            <a aria-label="ссылка на youtube" href="#" class="youtube link">
             </a>
           </li>
         </ul>
       </section>
       <section>
-          <a href="https://htmlacademy.ru" class="htmlacademy">
+          <a aria-label="ссылка на htmlacademy" href="https://htmlacademy.ru" class="htmlacademy link">
           </a>
       </section>
     </footer>
