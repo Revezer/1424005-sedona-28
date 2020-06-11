@@ -267,6 +267,10 @@ img{
     font-family: "PT Sans", Arial, sans-serif;
     font-size: 21px;
     margin-top: 15px;
+    background-color: #81B3D2;
+    border: none; 
+    outline: none;
+    color:white
 }
 
 footer{
@@ -604,4 +608,22 @@ footer section{
 .bar{
     width: 75%;
     margin-left: 0%
+}
+
+.modal-batton:hover,
+.modal-batton:focus{
+    background-color: #669EC0;
+}
+
+.modal-batton:active{
+    background-color: #5496BD;
+}
+
+.batton-span:active{
+    mix-blend-mode: normal;
+    opacity: 0.3;
+    display: flex;
+    height: 58px;
+    justify-content: center;
+    align-items: center;
 }
