@@ -218,7 +218,7 @@ img{
     justify-content: space-between;
     height: 285px;
     position: absolute;
-    top: 2113px;
+    top: 2180px;
     left: 668px;
 }
 
@@ -288,9 +288,10 @@ img{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     height: 120px;
+    width: 1200px;
 }
 
-.basement section{
+.basement-footer section{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -302,6 +303,7 @@ img{
 
 .number{
     color:black;
+    text-decoration: none;
 }
 
 .ul-hotels{
@@ -495,6 +497,7 @@ img{
     margin: 0;
     padding: 0;
     white-space: pre-line;
+    height: 256px;
 }
 
 .house{
@@ -637,4 +640,28 @@ img{
 .button-span:active{
     mix-blend-mode: normal;
     opacity: 0.3;
+}
+
+.icon-mar{
+    margin-top: 28px;
+    margin-bottom: 25px;
+}
+
+.p-mar{
+    margin-top: 25px;
+    margin-bottom: 23px;
+}
+
+.cause-li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-custom{
+    position: absolute;
+    width: 1200px;
+    background: rgba(255, 255, 255, 0.9);
+    top: 2654px;
 }
