@@ -678,3 +678,9 @@ img{
 .section-filter{
     height: 86px;
 }
+
+.map{
+    width:1200px;
+    height:594px;
+    border:0;
+}
