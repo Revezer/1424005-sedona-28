@@ -80,7 +80,15 @@ img{
 
 .site-navigation a:hover,
 .site-navigation a:focus{
-    background-color: #888888;
+    color: #81B3D2;
+}
+
+.site-navigation a:active{
+    color: rgba(0, 0, 0, 0.3)
+}
+
+#deactivated{
+    color: #766357;
 }
 
 .heading{
@@ -192,13 +200,14 @@ img{
     height: 86px;
   }
 
-.section-interested button:hover,
-.section-interested button:focus {
+.button-form:hover,
+.button-form:focus {
     background-color: #604E43;
   }
 
-.section-interested button:active{
+.button-form:active{
     background-color: #503E33;
+    color: rgba(255,255,255,0.3);
   }
 
 .modal{
