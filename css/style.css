@@ -245,15 +245,52 @@ img{
     font-family: "PT Sans", Arial, sans-serif;
 }
 
-.modal-number-one,
-.modal-number-two{
-    width: 114px;
+.modal-number{
+    width: 38px;
     height: 38px;
     font-family: "PT Sans", Arial, sans-serif;
+    padding: 0px;
+    border: 0px;
+    background: #F2F2F2;
+    text-align: center;
 }
 
-.modal-number-one{
-    margin-right: 3px;
+.div-number{
+    display: flex;
+}
+
+.button-minus,
+.button-plus{
+    width: 38px;
+    height: 38px;
+    background: #F2F2F2;
+    border: none;
+}
+
+.button-minus{
+    background-image: url(../img/minus.svg);
+}
+
+.button-minus:hover,
+.button-minus:focus{
+    background-image: url(../img/minus-hover.svg);
+}
+
+.button-minus:active{
+    background-image: url(../img/minus-active.svg);
+}
+
+.button-plus{
+    background-image: url(../img/plus.svg);
+}
+
+.button-plus:hover,
+.button-plus:focus{
+    background-image: url(../img/plus-hover.svg);
+}
+
+.button-plus:active{
+    background-image: url(../img/plus-active.svg);
 }
 
 .modal-div{
@@ -683,4 +720,13 @@ img{
     width:1200px;
     height:594px;
     border:0;
+}
+
+input[type='number'] {
+    -moz-appearance:textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
 }
