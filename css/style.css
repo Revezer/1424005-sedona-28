@@ -166,15 +166,14 @@ img{
 .section-interested{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
-    height: 300px;
+    height: 290px;
 }
 
 .section-interested h1{
     font-size: 30px;
     line-height: 24px;
-    font-weight: 700px;
+    font-weight: bold;
     margin: 0px;
     padding-top: 57px;
 }
@@ -184,6 +183,7 @@ img{
     line-height: 24px;
     font-weight: normal;
     white-space: pre-line;
+    padding-top: 32px;
 }
 
 .section-interested button {
@@ -197,6 +197,7 @@ img{
     line-height: 26px;
     width: 568px;
     height: 86px;
+    margin-top: 44px;
   }
 
 .button-form:hover,
@@ -226,7 +227,7 @@ img{
     justify-content: space-between;
     height: 285px;
     position: absolute;
-    top: 2180px;
+    top: 2170px;
     left: 316px;
     font-weight: bold;
 }
@@ -699,7 +700,6 @@ img{
 .cause-li{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 
@@ -810,4 +810,16 @@ input::-webkit-inner-spin-button {
 .p-bridge{
     white-space: pre-line;
     padding-top: 23px;
+}
+
+.h-padding{
+    padding-top: 48px;
+}
+
+.p-padding{
+    padding-top: 22px;
+}
+
+.spam-button{
+    text-transform: uppercase;
 }
