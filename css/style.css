@@ -753,6 +753,7 @@ input::-webkit-inner-spin-button {
     background-image: url(../img/checkbox-off.svg);
     background-repeat: no-repeat;
     background-position: center center;
+    position: absolute;
 }
 
 .custom-checkbox:checked+label::before {
@@ -763,4 +764,8 @@ input::-webkit-inner-spin-button {
 .toggle:hover{
     width: 8px;
     height: 8px;
+}
+
+.filter-span{
+    padding-left: 40px;
 }
