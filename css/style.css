@@ -759,3 +759,8 @@ input::-webkit-inner-spin-button {
     background-image: url(../img/checkbox-on.svg);
     width: 27px;
 }
+
+.toggle:hover{
+    width: 8px;
+    height: 8px;
+}
