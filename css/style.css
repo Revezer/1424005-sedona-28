@@ -587,6 +587,7 @@ img{
     display: flex;
     background-image: url(../img/background-filter.jpg);
     height: 217px;
+    color: white;
 }
 
 .form-filter ul{
@@ -712,6 +713,7 @@ img{
 
 .section-filter{
     height: 86px;
+    display: flex;
 }
 
 .map{
@@ -753,7 +755,8 @@ input::-webkit-inner-spin-button {
     width: 27px;
 }
 
-.toggle:hover{
+.toggle:hover,
+.toggle:focus{
     width: 8px;
     height: 8px;
 }
@@ -889,4 +892,81 @@ input::-webkit-inner-spin-button {
     80% {
       transform: translateX(10px);
     }
+}
+
+.filte-input{
+    border: none;
+    background: none;
+    width: 70px;
+    height: 36px;
+    color: white;
+}
+
+.filter-div-input{
+    width: 158px;
+    height: 36px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.price-controls{
+    display: flex;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 2px;
+    align-items: center;
+}
+
+.filter-div-input span{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    white-space: pre;
+}
+
+.filter-img{
+    width: 2px;
+    height: 22px;
+}
+
+.section-filter ul{
+    display: flex;
+}
+
+.a-price{
+    color: #81B3D2;
+}
+
+.a-tipe,
+.a-rating{
+    opacity: 0.3;
+    border-bottom: 1px dashed #81B3D2;
+}
+
+.a-tipe:hover,
+.a-rating:hover,
+.a-tipe:focus,
+.a-rating:focus{
+    color: #81B3D2;
+}
+
+.a-tipe:active,
+.a-rating:active{
+    opacity: 1;
+    color:black;
+    border:none;
+}
+
+.a-up{
+    width: 11px;
+    height: 10px;
+    background-image: url(../img/up-dir.svg);
+    display: block;
+}
+
+.a-down{
+    width: 11px;
+    height: 10px;
+    background-image: url(../img/down-dir.svg);
+    display: block;
 }
