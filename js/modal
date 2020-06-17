@@ -1,0 +1,7 @@
+var modalLink = document.querySelector(".button-form");
+var modalPopup = document.querySelector(".modal");
+
+modalLink.addEventListener("click", function (evt) {
+    evt.preventDefault();
+    modalPopup.classList.add(".modal-show");
+  });

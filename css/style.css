@@ -213,6 +213,9 @@ img{
 .modal{
     box-shadow: 0px 7px 15px rgba(0, 1, 1, 0.15);
     display: none;
+    position: absolute;
+    top: 2170px;
+    left: 316px;
 }
 
 .modal-form{
@@ -226,9 +229,6 @@ img{
     padding: 55px;
     justify-content: space-between;
     height: 285px;
-    position: absolute;
-    top: 2170px;
-    left: 316px;
     font-weight: bold;
 }
 
@@ -822,4 +822,71 @@ input::-webkit-inner-spin-button {
 
 .spam-button{
     text-transform: uppercase;
+}
+
+.button-filter{
+    width: 138px;
+    height: 36px;
+    background: none;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 2px;
+    color:white;
+}
+
+.button-filter:hover,
+.button-filter:focus{
+    color:black;
+    background-color: white;
+}
+
+.modal-show {
+    display: block;
+    animation-name: bounce;
+    animation-duration: 0.6s;
+}
+
+@keyframes bounce {
+    0% {
+      transform: translateY(-200px);
+    }
+  
+    70% {
+      transform: translateY(30px);
+    }
+  
+    90% {
+      transform: translateY(-10px);
+    }
+  
+    100% {
+      transform: translateY(0);
+    }
+}
+
+.modal-error{
+    animation-name: shake;
+    animation-duration: 0.6s;
+}
+
+@keyframes shake {
+    0%,
+    100% {
+      transform: translateX(0);
+    }
+  
+    10%,
+    30%,
+    50%,
+    70%,
+    90% {
+      transform: translateX(-10px);
+    }
+  
+    20%,
+    40%,
+    60%,
+    80% {
+      transform: translateX(10px);
+    }
 }
