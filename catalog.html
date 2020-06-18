@@ -12,12 +12,12 @@
     <header class="main-header">
       <nav class="main-navigation">
         <ul class="site-navigation">
-          <li><a class="link" href="blank.html">Информация</a></li>
+          <li><a class="link link-info" href="blank.html">Информация</a></li>
           <li class="site-navigation-item"><a class="link" href="blank.html">Фото и Видео</a></li>
           <li class="site-navigation-item-li"><a class="link" href="blank.html">Карта штата</a></li>
           <li><a id="deactivated">Гостиницы</a></li>
         </ul>
-        <a href="index.html" class="qwert link">
+        <a class="link qwert" href="index.html">
           <img src="img/logo-sedona.svg" width="138" height="70" alt="Логотип Седона">
         </a>
       </nav>
@@ -26,41 +26,41 @@
       <section>
         <form action="https://echo.htmlacademy.ru" method="get"  class="form-filter">
           <fieldset class="fieldset-infrastructure">
-            <legend>Инфраструктура:</legend>
+            <legend class="filter-legend">Инфраструктура:</legend>
             <ul>
-              <li>
+              <li class="filter-li-pool">
                 <input type="checkbox" class="custom-checkbox" name="pool" id="filter-pool" value="yes" checked>
                 <label for="filter-pool"><span class="filter-span">Бассейн</span></label>
               </li>
-              <li>
+              <li class="filter-li-parking">
                 <input type="checkbox" class="custom-checkbox" name="parking" id="filter-parking">
                 <label for="filter-parking"><span class="filter-span">Парковка</span></label>
               </li>
-              <li>
+              <li class="filter-li-wifi">
                 <input type="checkbox" class="custom-checkbox" name="wi-fi" id="filter-wi-fi">
                 <label for="filter-wi-fi"><span class="filter-span">Wi-fi</span></label>
               </li>
             </ul>
           </fieldset>
           <fieldset class="fieldset-type-housing">
-            <legend>Тип жилья:</legend>
+            <legend class="filter-legend">Тип жилья:</legend>
             <ul>
-              <li>
+              <li class="filter-li-hotel">
                 <input type="checkbox" class="custom-checkbox" name="hotel" id="filter-hotel" checked>
                 <label for="filter-hotel"><span class="filter-span">Гостиница</label>
               </li>
-              <li>
+              <li class="filter-li-motel">
                 <input type="checkbox" class="custom-checkbox" name="motel" id="filter-motel" checked>
                 <label for="filter-motel"><span class="filter-span">Мотель</span></label>
               </li>
-              <li>
+              <li class="filter-li-apartments">
                 <input type="checkbox" class="custom-checkbox" name="apartments" id="filter-apartments" checked>
                 <label for="filter-apartments"><span class="filter-span">Апартаменты</span></label>
               </li>
             </ul>
           </fieldset>
           <fieldset class="filter-item">
-            <legend>Стоимость в сутки (р):</legend>
+            <legend class="filter-legend">Стоимость в сутки (р):</legend>
             <div class="range-filter">
               <div class="price-controls">
                 <label class="min-price">
@@ -71,7 +71,7 @@
                 <img class="filter-img" src="img/Rectangle.svg">
                 <label class="max-price">
                   <div class="filter-div-input">
-                    <span>до </span> <input class="filte-input" type="number" name="max-price" value="4000">
+                    <span>до </span> <input class="filte-input" type="number" name="max-price" value="3000">
                   </div>
                 </label>
               </div>
@@ -91,21 +91,21 @@
         </form>
       </section>
       <section class="section-filter">
-        <h2>Найдено: 3</h2>
-        <ul>Сортировка:
-          <li>
+        <h2 class="h-two">Найдено: 3</h2>
+        <ul class="ul-sorting">Сортировка:
+          <li class="li-price">
             <a class="a-price">по цене</a>
           </li>
-          <li>
+          <li class="li-tipe">
             <a class="a-tipe">по типу</a>
           </li>
-          <li>
+          <li class="li-rating">
             <a class="a-rating">по рейтингу</a>
           </li>
         </ul>
         <ul>
-          <li><a class="a-up"></a></li>
-          <li><a class="a-down"></a></li>
+          <li class="li-up"><a class="a-up"></a></li>
+          <li class="li-down"><a class="a-down"></a></li>
         </ul>
       </section>
         <ul class="ul-hotels">
@@ -113,17 +113,21 @@
               <section class="section-hotels">
                 <img src="img/gostinnica.jpg" class="img-hotel" alt="ГОСТИНИЦА">
                 <div>
-                  <h2 class="h-two">Amara resort & spa</h2>
+                  <h2 class="h-two h-title">Amara resort & spa</h2>
                   <div class="div-hotel">
-                    <div>
+                    <div class="div-more">
                       <p class="paragraph">Гостиница</p>
                       <a class="button-more link" href="blank.html">Подробнее</a>
                     </div>
-                    <div>
+                    <div class="div-reservation">
                       <p class="paragraph">От 4000 р.</p>
                       <a class="button-reservation link" href="blank.html">Забронировать</a>
                     </div>
                   </div>
+                </div>
+                <div class="div-rating">
+                  <img src="img/four-stars.svg">
+                  <span class="span-rating">Рейтинг: 8,5</span>
                 </div>
               </section>
             </li>
@@ -131,17 +135,21 @@
               <section class="section-hotels">
                 <img src="img/motel.jpg" class="img-hotel" alt="МОТЕЛЬ">
                 <div>
-                  <h2 class="h-two">Desert quail inn</h2>
+                  <h2 class="h-two h-title">Desert quail inn</h2>
                   <div class="div-hotel">
-                    <div>
+                    <div class="div-more">
                       <p class="paragraph">Мотель</p>
                       <a class="button-more link" href="blank.html">Подробнее</a>
                     </div>
-                    <div>
+                    <div class="div-reservation">
                       <p class="paragraph">От 3000 р.</p>
                       <a class="button-reservation link" href="blank.html">Забронировать</a>
                     </div>
                   </div>
+                </div>
+                <div class="div-rating">
+                  <img src="img/three-stars.svg">
+                  <span class="span-rating">Рейтинг: 8,9</span>
                 </div>
               </section>
             </li> 
@@ -149,17 +157,21 @@
               <section class="section-hotels">
                 <img src="img/apartament.jpg" class="img-hotel" alt="АПАРТАМЕНТЫ">
                 <div>
-                  <h2>Villas at poco diablo</h2>
+                  <h2 class="h-two h-title">Villas at poco diablo</h2>
                   <div class="div-hotel">
-                    <div>
+                    <div class="div-more">
                       <p class="paragraph">Апартаменты</p>
                       <a class="button-more link" href="blank.html">Подробнее</a>
                     </div>
-                    <div>
+                    <div class="div-reservation">
                       <p class="paragraph">От 2000 р.</p>
                       <a class="button-reservation link" href="blank.html">Забронировать</a>
                     </div>
                   </div>
+                </div>
+                <div class="div-rating">
+                  <img src="img/two-stars.svg">
+                  <span class="span-rating">Рейтинг: 9,2</span>
                 </div>
               </section>
             </li>
@@ -167,8 +179,8 @@
     </main>
     <footer class="basement-footer">
       <section class="section-number">
-        <p class="paragraph">#VISITSEDONA</p>
-        <p class="paragraph">ТЕЛ: <a class="number" href="tel:+74956660166">+7(495)666-01-66</a></p>
+        <p class="paragraph hashtag">#VISITSEDONA</p>
+        <p class="paragraph telephone">ТЕЛ: <a class="number" href="tel:+74956660166">+7(495) 666-01-66</a></p>
       </section>
       <section class="social">
         <ul>
