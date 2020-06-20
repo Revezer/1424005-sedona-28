@@ -1047,11 +1047,18 @@ input::-webkit-inner-spin-button {
     padding-top: 25px;
 }
 
-.ul-sorting{
+.span-sorting{
     font-size: 12px;
     line-height: 18px;
     padding-top: 30px;
     padding-left: 47px;
+}
+
+.ul-sorting{
+    font-size: 12px;
+    line-height: 18px;
+    padding-top: 30px;
+    padding-left: 0px;
 }
 
 .section-filter h2{

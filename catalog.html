@@ -47,7 +47,7 @@
             <ul>
               <li class="filter-li-hotel">
                 <input type="checkbox" class="custom-checkbox" name="hotel" id="filter-hotel" checked>
-                <label for="filter-hotel"><span class="filter-span">Гостиница</label>
+                <label for="filter-hotel"><span class="filter-span">Гостиница</span></label>
               </li>
               <li class="filter-li-motel">
                 <input type="checkbox" class="custom-checkbox" name="motel" id="filter-motel" checked>
@@ -63,17 +63,15 @@
             <legend class="filter-legend">Стоимость в сутки (р):</legend>
             <div class="range-filter">
               <div class="price-controls">
-                <label class="min-price">
-                  <div class="filter-div-input">
-                    <span>от </span> <input class="filte-input" type="number" name="min-price" value="0">
-                  </div>
-                </label>
-                <img class="filter-img" src="img/Rectangle.svg">
-                <label class="max-price">
-                  <div class="filter-div-input">
-                    <span>до </span> <input class="filte-input" type="number" name="max-price" value="3000">
-                  </div>
-                </label>
+                <label class="min-price"></label>
+                <div class="filter-div-input">
+                  <span>от </span> <input class="filte-input" type="number" name="min-price" value="0">
+                </div>
+                <img class="filter-img" alt="элемент декорации" src="img/Rectangle.svg">
+                <label class="max-price"></label>
+                <div class="filter-div-input">
+                  <span>до </span> <input class="filte-input" type="number" name="max-price" value="3000">
+                </div>
               </div>
               <div class="range-controls">
                 <div class="scale">
@@ -92,7 +90,8 @@
       </section>
       <section class="section-filter">
         <h2 class="h-two">Найдено: 3</h2>
-        <ul class="ul-sorting">Сортировка:
+        <span class="span-sorting">Сортировка:</span>
+        <ul class="ul-sorting">
           <li class="li-price">
             <a class="a-price">по цене</a>
           </li>
@@ -126,7 +125,7 @@
                   </div>
                 </div>
                 <div class="div-rating">
-                  <img src="img/four-stars.svg">
+                  <img src="img/four-stars.svg" alt="4 звезды">
                   <span class="span-rating">Рейтинг: 8,5</span>
                 </div>
               </section>
@@ -148,7 +147,7 @@
                   </div>
                 </div>
                 <div class="div-rating">
-                  <img src="img/three-stars.svg">
+                  <img src="img/three-stars.svg" alt="3 звезды">
                   <span class="span-rating">Рейтинг: 8,9</span>
                 </div>
               </section>
@@ -170,7 +169,7 @@
                   </div>
                 </div>
                 <div class="div-rating">
-                  <img src="img/two-stars.svg">
+                  <img src="img/two-stars.svg" alt="2 звезды">
                   <span class="span-rating">Рейтинг: 9,2</span>
                 </div>
               </section>
