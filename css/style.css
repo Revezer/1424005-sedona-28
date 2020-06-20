@@ -204,6 +204,7 @@ img{
     width: 568px;
     height: 86px;
     margin-top: 44px;
+    text-transform: uppercase;
   }
 
 .button-form:hover,
@@ -269,6 +270,10 @@ img{
     display: flex;
 }
 
+.div-children{
+    margin-left: 28px;
+}
+
 .button-minus,
 .button-plus{
     width: 38px;
@@ -309,9 +314,7 @@ img{
     padding-top: 30px;
 }
 
-.medal-label-number{
-    width: 50%;
-    justify-content: space-between;
+.modal-label-number{
     display: flex;
     align-items: center;
 }
@@ -337,6 +340,7 @@ img{
 .basement{
     height: 594px;
     box-shadow: 0px 5px 15px rgba(0, 1, 1, 0.2);
+    background-image: url(../img/map.png);
 }
 
 .basement-footer{
@@ -846,10 +850,6 @@ input::-webkit-inner-spin-button {
     padding-top: 22px;
 }
 
-.spam-button{
-    text-transform: uppercase;
-}
-
 .button-filter{
     width: 138px;
     height: 36px;
@@ -1101,32 +1101,32 @@ input::-webkit-inner-spin-button {
     margin-bottom: 9px;
 }
 
-.div-icon-one,
-.div-icon-two{
+.a-icon-one,
+.a-icon-two{
     width: 21px;
     height: 23px;
     background-image: url(../img/calendar.svg);
     position: absolute;
 }
 
-.div-icon-one:hover,
-.div-icon-two:hover,
-.div-icon-one:focus,
-.div-icon-two:focus{
+.a-icon-one:hover,
+.a-icon-two:hover,
+.a-icon-one:focus,
+.a-icon-two:focus{
     background-image: url(../img/calendar-hover.png);
 }
 
-.div-icon-one:active,
-.div-icon-two:active{
+.a-icon-one:active,
+.a-icon-two:active{
     background-image: url(../img/calendar-active.png);
 }
 
-.div-icon-one{
+.a-icon-one{
     left: 483px;
     top: 62px;
 }
 
-.div-icon-two{
+.a-icon-two{
     left: 483px;
 }
 
@@ -1136,6 +1136,7 @@ input::-webkit-inner-spin-button {
 
 .div-adults{
     padding-right: 3px;
+    margin-left: 40px;
 }
 
 .span-children{

@@ -4,9 +4,11 @@ var checkIn = document.querySelector(".calendar-entry")
 var modalForm = document.querySelector(".modal-form")
 var checkOut = document.querySelector(".calendar-departure")
 
+modalPopup.classList.remove("modal-show");
+
 modalLink.addEventListener("click", function (evt) {
     evt.preventDefault();
-    modalPopup.classList.add("modal-show");
+    modalPopup.classList.toggle("modal-show");
     checkIn.focus();
   });
 

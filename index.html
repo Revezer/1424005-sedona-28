@@ -110,31 +110,34 @@
       <h1 class="h-one">Заинтересовались?</h1>
       <h3 class="h-three">Укажите предпологаемые даты поездки,
           и мы покажем вам лучшие предложения гостиниц в седоне</h3>
-      <button class="button-form" type="button"><spam class="spam-button">Поиск гостиницы в седоне</spam></button>
+      <button class="button-form" type="button">Поиск гостиницы в седоне</button>
     </section>
-    <section class="modal">
+    <section class="modal modal-show">
       <form action="https://echo.htmlacademy.ru" method="post" class="modal-form">
         <label class="medal-label">Дата заезда:<input type="date" name="calendar-entry" class="calendar-entry">
-          <div class="div-icon-one"></div>
+          <a class="a-icon-one"></a>
         </label>
         <label class="medal-label label-checkout">Дата выезда:<input type="date" name="calendar-departure" class="calendar-departure">
-          <div class="div-icon-two"></div>
+          <a class="a-icon-two"></a>
         </label>
         <div class="modal-div">
-          <label class="medal-label-number"><span>Взрослые:</span>
-            <div class="div-number div-adults">
-              <a class="button-minus"></a>
-              <input type="number" name="number-adults" class="modal-number">
-              <a class="button-plus"></a>
-            </div>
+          <label class="modal-label-number">
+            <span>Взрослые:</span>
           </label>
-          <label class="medal-label-number"><span class="span-children">Дети:</span>
-            <div class="div-number div-children">
-              <a class="button-minus"></a>
-              <input type="number" name="number-children" class="modal-number">
-              <a class="button-plus"></a>
-            </div>
+          <div class="div-number div-adults">
+            <a class="button-minus"></a>
+            <input type="number" name="number-adults" class="modal-number">
+            <a class="button-plus"></a>
+          </div>
+          
+          <label class="modal-label-number">
+            <span class="span-children">Дети:</span>
           </label>
+          <div class="div-number div-children">
+            <a class="button-minus"></a>
+            <input type="number" name="number-children" class="modal-number">
+            <a class="button-plus"></a>
+          </div>
         </div>
         <button class="modal-button" type="submit"><span class="button-span">Найти</span></button>
       </form>
@@ -164,7 +167,7 @@
         </ul>
       </section>
       <section>
-        <a aria-label="ссылка на htmlacademy" href="https://htmlacademy.ru" class="htmlacademy link">
+        <a aria-label="ссылка на htmlacademy" href="https://htmlacademy.ru/intensive/htmlcss" class="htmlacademy link">
         </a>
       </section>
     </div>
