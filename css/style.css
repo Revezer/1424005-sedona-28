@@ -222,6 +222,7 @@ img{
     position: relative;
     bottom: 1px;
     left: 316px;
+    z-index: 1;
 }
 
 .modal-form{
