@@ -778,6 +778,7 @@ input::-webkit-inner-spin-button {
     background-repeat: no-repeat;
     background-position: center center;
     position: absolute;
+    vertical-align: baseline;
 }
 
 .custom-checkbox:checked+label::before{
