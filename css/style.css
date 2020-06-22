@@ -4,7 +4,7 @@
     height: 100%;
 }
 
-.page-body {
+.page-body{
     width: 1280px;
     margin: 0;
     padding: 0;
@@ -69,7 +69,7 @@ img{
 }
 
 
-.main-header {
+.main-header{
     background: #FFFFFF;
     box-shadow: 0px 5px 15px rgba(0, 1, 1, 0.2);
 }
@@ -116,7 +116,7 @@ img{
     
 }
 
-.heading p {
+.heading p{
     font-size: 14px;
     line-height: 26px;
     margin-top: 0px;
@@ -193,7 +193,7 @@ img{
     padding-top: 32px;
 }
 
-.section-interested button {
+.section-interested button{
     font: inherit;
     text-align: center;
     background-color: #766357;
@@ -209,7 +209,7 @@ img{
   }
 
 .button-form:hover,
-.button-form:focus {
+.button-form:focus{
     background-color: #604E43;
   }
 
@@ -411,6 +411,7 @@ img{
 
 .button-more:active{
     background-color: #5496BD;
+    color: rgba(255, 255, 255, 0.3);
 }
 
 .button-reservation{
@@ -432,10 +433,12 @@ img{
 
 .button-reservation:active{
     background-color: #503E33;
+    color: rgba(255, 255, 255, 0.3);
 }
 
 .background-greetings{
-    background-image: url(../img/background-mountain.svg);
+    background-color: #84a8c9;
+    background-image: url(../img/background-mountain.jpg);
     width: 1200px;
     height: 510px;
 }
@@ -610,6 +613,7 @@ img{
 
 .form-filter{
     display: flex;
+    background-color: #84a8c9;
     background-image: url(../img/background-filter.jpg);
     height: 217px;
     color: white;
@@ -637,35 +641,35 @@ img{
     margin-left: 117px;
 }
 
-.filter-item {
+.filter-item{
     margin: 0;
     padding: 0;
     border: none;
     margin-left: 345px;
 }
 
-.range-filter {
+.range-filter{
     width: 316px;
     padding-top: 11px;
 }
 
-.range-controls {
+.range-controls{
     position: relative;
     height: 22px;
     padding-top: 21px;
 }
 
-.range-controls .scale {
+.range-controls .scale{
     height: 2px;
     background: #d7dcde;
 }
 
-.range-controls .bar {
+.range-controls .bar{
     height: 2px;
     background: white;
 }
 
-.range-controls .toggle {
+.range-controls .toggle{
     position: absolute;
     width: 4px;
     height: 4px;
@@ -677,11 +681,11 @@ img{
     cursor: pointer;
 }
   
-.range-controls .toggle-min {
+.range-controls .toggle-min{
     bottom: 12px;
  }
   
-.range-controls .toggle-max {
+.range-controls .toggle-max{
     bottom: 12px;
 }
 
@@ -750,7 +754,7 @@ img{
     border:0;
 }
 
-input[type='number'] {
+input[type='number']{
     -moz-appearance:textfield;
 }
 
@@ -765,7 +769,7 @@ input::-webkit-inner-spin-button {
     opacity: 0;
 }
 
-.custom-checkbox+label::before {
+.custom-checkbox+label::before{
     content: '';
     display: inline-block;
     width: 23px;
@@ -778,7 +782,7 @@ input::-webkit-inner-spin-button {
     position: absolute;
 }
 
-.custom-checkbox:checked+label::before {
+.custom-checkbox:checked+label::before{
     background-image: url(../img/checkbox-on.svg);
     width: 27px;
 }
@@ -870,26 +874,26 @@ input::-webkit-inner-spin-button {
     background-color: white;
 }
 
-.modal-show {
+.modal-show{
     display: block;
     animation-name: bounce;
     animation-duration: 0.6s;
 }
 
-@keyframes bounce {
-    0% {
+@keyframes bounce{
+    0%{
       transform: translateY(-200px);
     }
   
-    70% {
+    70%{
       transform: translateY(30px);
     }
   
-    90% {
+    90%{
       transform: translateY(-10px);
     }
   
-    100% {
+    100%{
       transform: translateY(0);
     }
 }
@@ -899,9 +903,9 @@ input::-webkit-inner-spin-button {
     animation-duration: 0.6s;
 }
 
-@keyframes shake {
+@keyframes shake{
     0%,
-    100% {
+    100%{
       transform: translateX(0);
     }
   
@@ -909,14 +913,14 @@ input::-webkit-inner-spin-button {
     30%,
     50%,
     70%,
-    90% {
+    90%{
       transform: translateX(-10px);
     }
   
     20%,
     40%,
     60%,
-    80% {
+    80%{
       transform: translateX(10px);
     }
 }
@@ -1159,7 +1163,7 @@ input::-webkit-inner-spin-button {
 .calendar-entry::-webkit-datetime-edit-day-field,
 .calendar-entry::-webkit-datetime-edit-year-field,
 .calendar-entry::-webkit-inner-spin-button,
-.calendar-entry::-webkit-calendar-picker-indicator {
+.calendar-entry::-webkit-calendar-picker-indicator{
    opacity: 0;
 }
 
@@ -1170,6 +1174,10 @@ input::-webkit-inner-spin-button {
 .calendar-departure::-webkit-datetime-edit-day-field,
 .calendar-departure::-webkit-datetime-edit-year-field,
 .calendar-departure::-webkit-inner-spin-button,
-.calendar-departure::-webkit-calendar-picker-indicator {
+.calendar-departure::-webkit-calendar-picker-indicator{
    opacity: 0;
+}
+
+.a-link{
+    text-decoration: none;
 }
