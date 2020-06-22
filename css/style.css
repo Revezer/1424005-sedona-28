@@ -1182,3 +1182,21 @@ input::-webkit-inner-spin-button {
 .a-link{
     text-decoration: none;
 }
+
+.page-body-catalog{
+    width: 1280px;
+    margin: 0;
+    padding: 0;
+    font-family: "PT Sans", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+    text-transform: uppercase;
+    background-position: top center;
+    background-repeat: no-repeat;
+    text-align: center;
+    justify-content: center;
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: min-content min-content min-content;
+}
