@@ -80,20 +80,20 @@ img{
     grid-template-columns: repeat(4,1fr);
 }
 
-.site-navigation a{
+.link{
     color: black;
 }
 
-.site-navigation a:hover,
-.site-navigation a:focus{
+.link:hover,
+.link:focus{
     color: #81B3D2;
 }
 
-.site-navigation a:active{
+.link:active{
     color: rgba(0, 0, 0, 0.3)
 }
 
-#deactivated{
+.deactivated{
     color: #766357;
     padding-left: 77px;
 }
@@ -735,7 +735,7 @@ img{
     position: absolute;
     width: 1200px;
     background: rgba(255, 255, 255, 0.9);
-    top: 2654px;
+    top: 2644px;
 }
 
 .section-filter{
@@ -1150,4 +1150,26 @@ input::-webkit-inner-spin-button {
 
 .span-children{
     padding-left: 50px;
+}
+
+.calendar-entry::-webkit-datetime-edit,
+.calendar-entry::-webkit-datetime-edit-fields-wrapper,
+.calendar-entry::-webkit-datetime-edit-text,
+.calendar-entry::-webkit-datetime-edit-month-field,
+.calendar-entry::-webkit-datetime-edit-day-field,
+.calendar-entry::-webkit-datetime-edit-year-field,
+.calendar-entry::-webkit-inner-spin-button,
+.calendar-entry::-webkit-calendar-picker-indicator {
+   opacity: 0;
+}
+
+.calendar-departure::-webkit-datetime-edit,
+.calendar-departure::-webkit-datetime-edit-fields-wrapper,
+.calendar-departure::-webkit-datetime-edit-text,
+.calendar-departure::-webkit-datetime-edit-month-field,
+.calendar-departure::-webkit-datetime-edit-day-field,
+.calendar-departure::-webkit-datetime-edit-year-field,
+.calendar-departure::-webkit-inner-spin-button,
+.calendar-departure::-webkit-calendar-picker-indicator {
+   opacity: 0;
 }
